@@ -1,0 +1,15 @@
+# Secrets and local settings (never commit these)
+application-dev.properties
+application-local.properties
+.env.local
+*.local
+
+# Backups and exports
+*.sql
+*.zip
+
+# Editor and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
